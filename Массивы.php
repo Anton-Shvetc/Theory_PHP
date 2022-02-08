@@ -27,6 +27,7 @@ print_r($families[0]);  // Array ( [0] => Tom [1] => Alice )
 
 $user = ['age' => 42, 'name' => 'Иннокентий', 'fav_shows' => ["game of thrones", "american horror story", "walking dead"] ]
 
+
 // foreach
 
 $families = [["Tom", "Alice"], ["Bob", "Kate"], ["Sam", "Mary"]];
