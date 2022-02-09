@@ -1,5 +1,39 @@
 <?php
 
+
+// key — Выбирает ключ из массива
+
+key(array|object $array): int|string|null
+
+$array = array(
+    'fruit1' => 'apple',
+    'fruit2' => 'orange',
+    'fruit3' => 'grape',
+    'fruit4' => 'apple',
+    'fruit5' => 'apple');
+
+// этот цикл выведет все ключи ассоциативного массива,
+// значения которых равны "apple"
+while ($fruit_name = current($array)) {
+    if ($fruit_name == 'apple') {
+        echo key($array), "\n";
+    }
+    next($array);
+}
+
+
+// fruit1
+// fruit4
+// fruit5
+
+
+// current() - Возвращает текущий элемент массива
+// next() - Перемещает указатель массива вперёд на один элемент
+// array_key_first() - Получает первый ключ массива
+
+
+
+
 // Простой массив 
 
 $array = array(

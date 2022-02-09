@@ -27,7 +27,7 @@ foreach($meshok as $key => $item) { // Перебор массива по клю
 
    
     echo '$key - ' . $key ;
-    echo ' $item - ' .  $item .  '<br>';
+    echo ' $item - ' .  $item . '<br>';
 
 
 }
